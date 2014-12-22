@@ -1,6 +1,9 @@
 #progress {
 	height: 10px;
 	background: rgb(255, 176, 0);
+	top: 0;
+	position: fixed;
+	z-index: 99999;
 }
 
 #progress-back {
@@ -9,8 +12,58 @@
 	top: 0;
 	position: fixed;
 	width: 100%;
+	z-index: 999;
 }
 
 #helper {
 	height: 1000px;
+}
+
+#slides-container {
+	margin-top: 10px;
+}
+
+#slides {
+	width: 200%;
+	height: 200%;
+}
+
+.slide {
+    position:absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height:50%;
+}
+
+#slide-1 {
+    background: rgb(255, 205, 0);
+    background-size: cover;
+}
+
+/* Slide 2 goes to the bottom left */
+#slide-2 {
+    background: green;
+    background-size: cover;
+    -webkit-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+
+/* Slide 3 goes to the bottom right */
+#slide-3 {
+    background: yellow;
+    background-size: cover;
+    -webkit-transform: translate(100%,100%);
+    -ms-transform: translate(100%,100%);
+    transform: translate(100%,100%);
+}
+
+/* Slide 4 goes to the top right */
+#slide-4 {
+    background: blue;
+    background-size: cover;
+    -webkit-transform: translate(100%,0%);
+    -ms-transform: translate(100%,0%);
+    transform: translate(100%,0%);
 }

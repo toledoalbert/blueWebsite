@@ -11,15 +11,30 @@
 	<link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body class="skrollr-decks-init">
 
-	<div id="progress" data-0="width:0%;" data-1000="width:100%;"></div>
+	<div id="progress" data-0="width:0%;" data-end="width:100%;"></div>
 	<div id="progress-back"></div>
-	<div id="helper"></div>
+	<!-- <div id="helper"></div> -->
+
+	<div id="slides-container">
+	    <div id="slides" 
+	    	data-0="transform:translate(0%,0%);"
+		    data-100p="transform:translate(0%,-50%);"
+		    data-200p="transform:translate(-50%,-50%);"
+		    data-300p="transform:translate(-50%,0%);">
+		    
+	        <div id="slide-1" class="slide"></div>
+	        <div id="slide-2" class="slide"></div>
+	        <div id="slide-3" class="slide"></div>
+	        <div id="slide-4" class="slide"></div>
+	    </div>
+	</div>
 
 	<script src='http://prinzhorn.github.io/skrollr/dist/skrollr.min.js'></script>
+	<script src='js/skrollr.decks.min.js'></script>
 	<script src='js/site.js'></script>
-	<!--[if lt IE 9]>
+	<!--[if lt IE 9]>†
 	<script type="text/javascript" src="dist/skrollr.ie.min.js"></script>
 	<![endif]-->
 </body>
