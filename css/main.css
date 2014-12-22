@@ -1,0 +1,16 @@
+#progress {
+	height: 10px;
+	background: rgb(255, 176, 0);
+}
+
+#progress-back {
+	height: 10px;
+	background: rgb(255, 205, 0);
+	top: 0;
+	position: fixed;
+	width: 100%;
+}
+
+#helper {
+	height: 1000px;
+}
