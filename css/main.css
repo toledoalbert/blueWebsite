@@ -67,3 +67,30 @@
     -ms-transform: translate(0,300%);
     transform: translate(0,300%);
 }
+
+/* Slide 5 goes to the top right */
+#slide-5 {
+    background: red;
+    background-size: cover;
+    -webkit-transform: translate(0%,400%);
+    -ms-transform: translate(0,400%);
+    transform: translate(0,400%);
+}
+
+/* Slide 6 goes to the top right */
+#slide-6 {
+    background: yellow;
+    background-size: cover;
+    -webkit-transform: translate(0%,500%);
+    -ms-transform: translate(0,500%);
+    transform: translate(0,500%);
+}
+
+/* Slide 7 goes to the top right */
+#slide-7 {
+    background: green;
+    background-size: cover;
+    -webkit-transform: translate(0%,600%);
+    -ms-transform: translate(0,600%);
+    transform: translate(0,600%);
+}
