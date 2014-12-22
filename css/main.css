@@ -15,8 +15,41 @@
 	z-index: 999;
 }
 
-#helper {
+/*#helper {
 	height: 1000px;
+}*/
+
+#logo {
+	position: fixed;
+	top: 30%;
+	left: 40%;
+	z-index: 9999;
+	color: white;
+	font-family: 'helvetica neue';
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+#intro {
+	position: fixed;
+	top: 23%;
+	left: 40%;
+	z-index: 9999;
+	color: white;
+	font-family: 'helvetica neue';
+	font-weight: lighter;
+	font-size: 50px;
+}
+
+#instruct {
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	z-index: 9999;
+	color: white;
+	font-family: 'helvetica neue';
+	font-weight: bold;
+	font-size: 16px;
 }
 
 #slides-container {
