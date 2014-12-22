@@ -143,7 +143,7 @@
 
 /* Slide 4 goes to the top right */
 #slide-4 {
-    background: blue;
+    background: rgb(191, 85, 236);
     background-size: cover;
     -webkit-transform: translate(0%,300%);
     -ms-transform: translate(0,300%);
@@ -152,7 +152,7 @@
 
 /* Slide 5 goes to the top right */
 #slide-5 {
-    background: red;
+    background: rgb(189, 195, 199);
     background-size: cover;
     -webkit-transform: translate(0%,400%);
     -ms-transform: translate(0,400%);
@@ -161,7 +161,7 @@
 
 /* Slide 6 goes to the top right */
 #slide-6 {
-    background: yellow;
+    background: rgb(236, 240, 241);
     background-size: cover;
     -webkit-transform: translate(0%,500%);
     -ms-transform: translate(0,500%);
@@ -170,7 +170,7 @@
 
 /* Slide 7 goes to the top right */
 #slide-7 {
-    background: green;
+    background: rgb(108, 122, 137);
     background-size: cover;
     -webkit-transform: translate(0%,600%);
     -ms-transform: translate(0,600%);
