@@ -8,6 +8,7 @@
 	<title>Albert Toledo</title>
 
 	<link href="css/fixed-positioning.css" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -17,31 +18,70 @@
 	<div id="progress-back"></div>
 	<!-- <div id="helper"></div> -->
 	<div id="logo" 
-		data-0="transform:translate(0%,0%);" 
-		data-100p="transform:translate(-170%,-210%);"
+		data-0="left: 40%; top: 30%;" 
+		data-100p="left: 2%; top: 0%;"
 		>
 		<h1>albert toledo.</h1>
+	</div>
+
+	<div id="nav" 	    	
+			data-0="bottom: -50px;"
+	    	data-105p="bottom: 0;"
+	    	>
 	</div>
 
 	<div id="slides-container">
 	    <div id="slides" 
 	    	data-0="transform:translate(0%,0%);"
-		    data-100p="transform:translate(0%,-50%);"
-		    data-200p="transform:translate(0%,-100%);"
-		    data-300p="transform:translate(0%,-150%);"
-		    data-400p="transform:translate(0%,-200%);"
-		    data-500p="transform:translate(0%,-250%);"
-		    data-600p="transform:translate(0%,-300%);"
+	    	data-100p="transform:translate(0%,0%);"
+		    data-1450p="transform:translate(0%,0%);"
+		    data-1550p="transform:translate(0%,-50%);"
+		    data-1650p="transform:translate(0%,-150%);"
+		    data-1750p="transform:translate(0%,-200%);"
+		    data-1850p="transform:translate(0%,-250%);"
+		    data-1950p="transform:translate(0%,-300%);"
 		    >
 
 	        <div id="slide-1" class="slide">
-	        	<div id="intro">
+
+	        	<div id="intro" data-0="opacity: 1;" data-50p="opacity:0;">
 	        		<p>Hi, I am</p>
 	        	</div>
-	        	<div id="instruct">
+
+	        	<div id="instruct" data-0="opacity: 1;" data-50p="opacity:0;">
 	        		<p>scroll down to learn more about me</p>
 	        	</div>
+
+	        	<div id="profession" class="about-text" data-0="opacity:0;" data-100p="opacity: 1;" data-200p="opacity: 0;">
+	        		<p>I am a self thaught full stack developer and designer,</p>
+	        	</div>
+
+	        	<div id="from" class="about-text" data-0="opacity:0;" data-200p="opacity: 0;" data-300p="opacity: 1;" data-350p="opacity: 1;" data-400p="opacity: 0;">
+	        		<p>I come from Istanbul</p>
+	        	</div>
+
+	        	<div id="highschool" class="about-text" data-0="opacity:0;" data-400p="opacity: 0;" data-500p="opacity: 1;" data-550p="opacity: 1;" data-600p="opacity: 0;">
+	        		<p>where I went to the Austrian High School.</p>
+	        	</div>
+
+	        	<div id="highschool" class="about-text" data-0="opacity:0;" data-600p="opacity: 0;" data-700p="opacity: 1;" data-750p="opacity: 1;" data-800p="opacity: 0;">
+	        		<p>I also spent a year in Oviedo as an AFS Exchange Student.</p>
+	        	</div>
+
+	        	<div id="university" class="about-text" data-0="opacity:0;" data-800p="opacity: 0;" data-900p="opacity: 1;" data-950p="opacity: 1;" data-1000p="opacity: 0;">
+	        		<p>Now I go to Hampton University to get a B.S. in Computer Science.</p>
+	        	</div>
+
+	        	<div id="sailing" class="about-text" data-0="opacity:0;" data-1000p="opacity: 0;" data-1100p="opacity: 1;" data-1150p="opacity: 1;" data-1200p="opacity: 0;">
+	        		<p>I compete for the varsity sailing team of my school.</p>
+	        	</div>
+
+	        	<div id="hobby" class="about-text" data-0="opacity:0;" data-1200p="opacity: 0;" data-1300p="opacity: 1;" data-1350p="opacity: 1;" data-1400p="opacity: 0;">
+	        		<p>I ride horses, and take photographs in my spare time</p>
+	        	</div>
+
 	        </div>
+
 	        <div id="slide-2" class="slide"></div>
 	        <div id="slide-3" class="slide"></div>
 	        <div id="slide-4" class="slide"></div>
@@ -52,6 +92,7 @@
 	</div>
 
 	<script src='http://prinzhorn.github.io/skrollr/dist/skrollr.min.js'></script>
+	<script src='js/bootstrap.min.js'></script>
 	<script src='js/skrollr.decks.min.js'></script>
 	<script src='js/site.js'></script>
 	<!--[if lt IE 9]>†
