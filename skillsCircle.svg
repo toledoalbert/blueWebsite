@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup">
+            <g id="skillCircle" sketch:type="MSLayerGroup" transform="translate(149.000000, 190.000000)">
+                <circle class="Oval-1" stroke="#FFFFFF" fill="#79C436" sketch:type="MSShapeGroup" cx="125" cy="125" r="125"></circle>
+                <text id="JAVA" sketch:type="MSTextLayer" font-family="Helvetica" font-size="72" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="40" y="150">JAVA</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
