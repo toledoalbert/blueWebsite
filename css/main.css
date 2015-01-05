@@ -1,3 +1,7 @@
+ul {
+	list-style: none;
+}
+
 #progress {
 	height: 10px;
 	background: rgb(255, 176, 0);
@@ -26,7 +30,7 @@
 }
 
 #logo {
-	position: fixed;
+	position: fixed !important;
 	top: 30%;
 	left: 40%;
 	z-index: 9999;
@@ -38,6 +42,7 @@
 
 #logo h1 {
 	font-size: 65px;
+	position: fixed !important;
 }
 
 #intro {
@@ -83,79 +88,29 @@
 	opacity: 1;
 }
 
+.content {
+	padding-top: 10%;
+	padding-bottom: 10%;
+	margin-left: 250px;
+	margin-right: 250px;
+}
 
-.about-text {
-	position: fixed;
-	top: 23%;
-	left: 10%;
-	z-index: 9999;
-	color: white;
-	font-family: 'helvetica neue';
+.sub-header {
+	font-size: 20px;
 	font-weight: lighter;
-	font-size: 30px;
+	margin: 50px 0px 50px 0px;
 }
 
-/*#skills {
-	height: 90vh;
-	width: auto;
-	margin-left: 10%;
-}*/
-
-#laptop {
-	height: 400px;
+#about {
+	line-height: 35px;
+	padding: 0;
 }
 
-#mozart {
+/*#istanbul {
 	position: fixed;
-	left: 100px;
-	z-index: 9999;
-	height: 250px;
-	width: auto;
-}
-
-#spain {
-	top: 45vh;
-	right: 65vh;
-	height: 320px;
-	width: auto;
-}
-
-#hampton {
-	height: 200px;
-	width: auto;
-}
-
-#sailboat {
-	height: 400px;
-	width: auto;
-	bottom: 30px;
-}
-
-#camera {
-	right: 55%;
-	height: 150px;
-	width: auto;
-}
-
-#horse {
-	right: 20%;
-	height: 300px;
-	width: auto;
-}
-
-#skills {
-	height: 100%;
-	widows: 100%;
-}
-
-#skills svg {
-	height: 100%;
-	width: 100%;
-}
-
-#skills svg circle {
-	opacity: 0.4;
-}
+	bottom: 0px;
+	opacity: 0.5;
+}*/
 
 #slides-container {
 	margin-top: 10px;
@@ -172,6 +127,7 @@
     left:0;
     width:50%;
     height:50%;
+    border-bottom: 1px solid gray;
 }
 
 #slide-1 {

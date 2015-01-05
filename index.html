@@ -5,7 +5,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<title>Albert Toledo</title>
+	<title>Albert Toledo | Software Developer - Designer</title>
 
 	<link href="css/fixed-positioning.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -15,25 +15,34 @@
 
 <body class="skrollr-decks-init">
 
+	<!-- Loading screen to come here later. with js to control it-->
+
+	<!-- Progress Bar -->
 	<div id="progress" data-0="width:0%;" data-end="width:100%;"></div>
 	<div id="progress-back"></div>
-	<!-- <div id="helper"></div> -->
+
+	<!-- Logo that goes into corner -->
 	<div id="logo" 
 		data-0="left: 40%; top: 30%;" 
-		data-100p="left: 2%; top: 0%;"
+		data-50p="left: 2%; top: 0%;"
 		>
-		<h1>albert toledo.</h1>
+		<h1
+			data-0="color: rgb(255, 255, 255); font-size: 65px;"
+			data-50p="color: rgb(255, 205, 0); font-size: 30px;"
+			>albert toledo.</h1>
 	</div>
 
+	<!-- Navigation Bar that comes in from the bottom -->
 	<div id="nav" 	    	
 			data-0="bottom: -50px; background-color: rgb(255, 191, 0); color: white;"
-	    	data-105p="bottom: 0;"
+	    	data-50p="bottom: 0;"
 	    	data-725p="background-color: rgb(255, 191, 0);"
 			data-750p="background-color: rgb(59, 175, 70);"
 			data-2500p="background-color: rgb(59, 175, 70);"
 			data-2600p="background-color: rgb(61, 122, 194);"
 	    	>
 
+			<!-- List of the navbar content -->
 	    	<ul id="navlist">
 	    		<li><a href="#slide-1">ABOUT</a></li>
 	    		<li><a href="#slide-2">SKILLS</a></li>
@@ -45,20 +54,24 @@
 	    	</ul>
 	</div>
 
+	<!-- Div that wraps all the slides -->
 	<div id="slides-container">
+		<!-- Div that contains slides -->
 	    <div id="slides" 
 	    	data-0="transform:translate(0%,0%);"
-		    data-750p="transform:translate(0%,0%);"
-		    data-800p="transform:translate(0%,-50%);"
-		    data-2550p="transform:translate(0%,-50%);"
-		    data-2650p="transform:translate(0%,-150%);"
-		    data-2700p="transform:translate(0%,-150%);"
-		    data-2750p="transform:translate(0%,-200%);"
-		    data-2800p="transform:translate(0%,-250%);"
-		    data-2850p="transform:translate(0%,-300%);"
+		    data-60p="transform:translate(0%,0%);"
+		    data-160p="transform:translate(0%,-50%);"
+		    data-170p="transform:translate(0%,-50%);"
+		    data-270p="transform:translate(0%,-150%);"
+		    data-280p="transform:translate(0%,-150%);"
+		    data-380p="transform:translate(0%,-200%);"
+		    data-390p="transform:translate(0%,-250%);"
+		    data-490p="transform:translate(0%,-300%);"
 		    >
 
-	        <div id="slide-1" class="slide">
+	        <div id="slide-1" class="slide"
+	        		data-0="background: rgb(255, 205, 0);"
+	        		data-50p="background: rgb(255, 255, 255);">
 
 	        	<div id="intro" 
 	        		data-0="opacity: 1;" 
@@ -72,108 +85,55 @@
 	        		<p>scroll down to learn more about me</p>
 	        	</div>
 
-	        	<div id="profession" class="about-text" 
-	        		data-0="opacity:0;" 
-	        		data-100p="opacity: 1;" 
-	        		data-125p="opacity: 1;"
-	        		data-150p="opacity: 0;">
-	        		<p>I am a full stack developer and designer,</p>
+<!-- 	        	<div class="background-pic">
+	        		<img src="img/istanbulGrey.png" alt="" id="istanbul">
+	        	</div> -->
+
+	        	<div class="content"
+	        			data-40p="opacity: 0;"
+	        			data-50p="opacity: 1;">
+	        		<div class="row">
+	        			<div class="col-xs-12">
+	        				<h1 class="slide-header">
+	        					ABOUT
+	        				</h1>
+	        			</div>
+	        		</div>
+	        		<div class="row">
+	        			<div class="col-xs-12 col-xs-offset-3 sub-header">
+	        					<ul id="about">
+	        						<li class="about-detail">I am a full stack developer and user experience designer.</li>
+	        						<li class="about-detail">I come from Istanbul,</li>
+	        						<li class="about-detail">where I went to the Austrian High School.</li>
+	        						<li class="about-detail">I spent a year in Oviedo, Spain when I was in third grade of high school.</li>
+	        						<li class="about-detail">Then I came to the U.S. and started working on my B.S. in Computer Science at Hampton University,</li>
+	        						<li class="about-detail">while I compete for the varsity sailing team there.</li>
+	        						<li class="about-detail">I also take photographs and ride horses in my spare time.</li>
+	        					</ul>
+	        			</div>
+	        		</div>
 	        	</div>
-
-	        	<div id="from" class="about-text" 
-	        		data-0="opacity:0;" 
-	        		data-150p="opacity: 0;" 
-	        		data-200p="opacity: 1;" 
-	        		data-225p="opacity: 1;" 
-	        		data-250p="opacity: 0;">
-	        		<p>I come from Istanbul</p>
-	        	</div>
-
-	        	<div id="highschool" class="about-text" 
-	        		data-0="opacity:0;" 
-	        		data-250p="opacity: 0;" 
-	        		data-300p="opacity: 1;" 
-	        		data-325p="opacity: 1;" 
-	        		data-350p="opacity: 0;">
-	        		<p>where I went to the Austrian High School.</p>
-	        	</div>
-
-	        	<div id="highschool" class="about-text" 
-	        		data-0="opacity:0;" 
-	        		data-350p="opacity: 0;" 
-	        		data-400p="opacity: 1;" 
-	        		data-425p="opacity: 1;" 
-	        		data-450p="opacity: 0;">
-	        		<p>I also spent a year in Spain as an AFS Exchange Student.</p>
-	        	</div>
-
-	        	<div id="university" class="about-text" 
-	        		data-0="opacity:0;" 
-	        		data-450p="opacity: 0;" 
-	        		data-500p="opacity: 1;" 
-	        		data-525p="opacity: 1;" 
-	        		data-550p="opacity: 0;">
-	        		<p>Now I go to Hampton University to get a B.S. in Computer Science.</p>
-	        	</div>
-
-	        	<div id="sailing" class="about-text" 
-	        		data-0="opacity:0;" 
-	        		data-550p="opacity: 0;" 
-	        		data-600p="opacity: 1;" 
-	        		data-625p="opacity: 1;" 
-	        		data-650p="opacity: 0;">
-	        		<p>and compete for the varsity sailing team there.</p>
-	        	</div>
-
-	        	<div id="hobby" class="about-text" 
-	        		data-0="opacity:0;" 
-	        		data-650p="opacity: 0;" 
-	        		data-700p="opacity: 1;" 
-	        		data-725p="opacity: 1;" 
-	        		data-750p="opacity: 0;">
-	        		<p>I ride horses, and take photographs in my spare time</p>
-	        	</div>
-
-	        	<!-- <div id="scene1images"> -->
-	        		<img id="mozart" src="mozart.png" alt=""
-	        			data-0="bottom: -10%;"
-	        			data-250p="bottom: -10%;"
-	        			data-300p="bottom: 50%;">
-	        		<img id="laptop" src="laptop.png" alt=""
-	        			data-0="top: -80%; right: 0%;"
-	        			data-50p="top: -80%; right: 0%;"
-	        			data-100p="top: 1%; right: 1%;">
-	        		<img style="position: absolute; bottom: 0px; right: 0px; width: 100%; height: auto;" id="istanbul" src="istanbul.png" alt=""
-		        		data-0="opacity: 0;"
-	        			data-125p="opacity: 0;"
-	        			data-175p="opacity: 1;">
-	        		<img id="spain" src="spain.png" alt=""
-	        			data-0="right: -40%;"
-	        			data-350p="right: -40%;"
-	        			data-400p="right: 39%;">
-	        		<img id="hampton" src="hampton.png" alt=""
-	        			data-0="left: -20%; bottom: 200px;"
-	        			data-450p="left: -20%; bottom: 200px;"
-	        			data-500p="left: 25%; bottom: 300px;">
-	        		<img id="sailboat" src="sailboat.png" alt=""
-	        			data-0="right: -1000px;"
-	        			data-550p="right: -1000px;"
-	        			data-600p="right: -90px;">
-	        		<img id="camera" src="camera.png" alt=""
-	        			data-0="bottom: -20%;"
-	        			data-650p="bottom: -20%;"
-	        			data-700p="bottom: 10%;">
-	        		<img id="horse" src="horse.png" alt=""
-	        			data-0="bottom: -80%;"
-	        			data-650p="bottom: -40%;"
-	        			data-700p="bottom: 6%;">
-
-	        	<!-- </div> -->
 
 	        </div>
 
 	        <div id="slide-2" class="slide">
-				<div id="skills"></div>
+	        	<div class="content"
+	        			data-110p="opacity: 0;"
+	        			data-120p="opacity: 1;">
+	        		<div class="row">
+	        			<div class="col-xs-12">
+	        				<h1 class="slide-header">
+	        					SKILLS & KNOWLEDGE
+	        				</h1>
+	        			</div>
+	        		</div>
+	        		<div class="row">
+	        			<div class="col-xs-12 col-xs-offset-3 sub-header">
+	        					<p>I love creating things starting with human centered design following the build. Because of the age we live in
+	        						what I build happens to be mostly software. Here are some stuff I learned to make my products happen.</p>
+	        			</div>
+	        		</div>
+	        	</div>
 	        </div>
 	        <div id="slide-3" class="slide"></div>
 	        <div id="slide-4" class="slide"></div>
