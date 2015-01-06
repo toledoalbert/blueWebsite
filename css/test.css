@@ -30,7 +30,7 @@ ul {
 }
 
 #logo {
-	position: fixed !important;
+	position: absolute;
 	top: 30%;
 	left: 40%;
 	z-index: 9999;
@@ -42,13 +42,10 @@ ul {
 
 #logo h1 {
 	font-size: 65px;
-	position: fixed !important;
+	position: fixed;
 }
 
 #intro {
-	position: absolute;
-	top: 23%;
-	left: 40%;
 	z-index: 9999;
 	color: white;
 	font-family: 'helvetica neue';
@@ -57,9 +54,7 @@ ul {
 }
 
 #instruct {
-	position: absolute;
-	top: 40%;
-	left: 50%;
+	margin-top: 50%;
 	z-index: 9999;
 	color: white;
 	font-family: 'helvetica neue';
@@ -201,15 +196,15 @@ ul.skills {
 
 #slides {
 	width: 200%;
-	height: 200%;
+	height: 100%;
 }
 
 .slide {
-    position:absolute;
+    /*position:absolute;*/
     top:0;
     left:0;
-    width:50%;
-    height:50%;
+    width:100%;
+    min-height: 100vh;
     border-bottom: 1px solid gray;
 }
 
@@ -222,52 +217,53 @@ ul.skills {
 #slide-2 {
     background: rgb(68, 198, 80);
     background-size: cover;
-    -webkit-transform: translate(0,100%);
+/*    -webkit-transform: translate(0,100%);
     -ms-transform: translate(0,100%);
-    transform: translate(0,100%);
+    transform: translate(0,100%);*/
 }
 
 /* Slide 3 goes to the bottom right */
 #slide-3 {
     background: #4A90E2;
     background-size: cover;
-    -webkit-transform: translate(0,200%);
+/*    -webkit-transform: translate(0,200%);
     -ms-transform: translate(0,200%);
-    transform: translate(0,200%);
+    transform: translate(0,200%);*/
+    /*height: 100% !important;*/
 }
 
 /* Slide 4 goes to the top right */
 #slide-4 {
     background: rgb(191, 85, 236);
     background-size: cover;
-    -webkit-transform: translate(0%,300%);
+/*    -webkit-transform: translate(0%,300%);
     -ms-transform: translate(0,300%);
-    transform: translate(0,300%);
+    transform: translate(0,300%);*/
 }
 
 /* Slide 5 goes to the top right */
 #slide-5 {
     background: rgb(189, 195, 199);
     background-size: cover;
-    -webkit-transform: translate(0%,400%);
+/*    -webkit-transform: translate(0%,400%);
     -ms-transform: translate(0,400%);
-    transform: translate(0,400%);
+    transform: translate(0,400%);*/
 }
 
 /* Slide 6 goes to the top right */
 #slide-6 {
     background: rgb(236, 240, 241);
     background-size: cover;
-    -webkit-transform: translate(0%,500%);
+/*    -webkit-transform: translate(0%,500%);
     -ms-transform: translate(0,500%);
-    transform: translate(0,500%);
+    transform: translate(0,500%);*/
 }
 
 /* Slide 7 goes to the top right */
 #slide-7 {
     background: rgb(108, 122, 137);
     background-size: cover;
-    -webkit-transform: translate(0%,600%);
+/*    -webkit-transform: translate(0%,600%);
     -ms-transform: translate(0,600%);
-    transform: translate(0,600%);
+    transform: translate(0,600%);*/
 }

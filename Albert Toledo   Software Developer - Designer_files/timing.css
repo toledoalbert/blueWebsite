@@ -1,0 +1,33 @@
+#nav {
+    -skrollr-animation-name:navbar;
+}
+
+@-skrollr-keyframes navbar {
+    
+    0 {
+        bottom: -50px; 
+        background-color: rgb(255, 191, 0); 
+        color: white;
+    }
+
+    105 {
+        bottom: 0;
+    }
+
+    1360 {
+        background-color: rgb(255, 191, 0);
+    }
+
+    1400 {
+        background-color: rgb(59, 175, 70);
+    }
+
+    2500 {
+        background-color: rgb(59, 175, 70);
+    }
+
+    2600 {
+        background-color: rgb(61, 122, 194);
+    }
+
+}
