@@ -1,9 +1,19 @@
+html, body {
+	max-width: 100vw;
+	overflow-x: hidden !important;
+	font-family: "brandon-grotesque",sans-serif;
+}
+
 ul {
 	list-style: none;
 }
 
+.slide-content {
+	margin: 50px 50px 50px 50px;
+}
+
 #progress {
-	height: 10px;
+	height: 5px;
 	background: rgb(255, 176, 0);
 	top: 0;
 	position: fixed;
@@ -11,7 +21,7 @@ ul {
 }
 
 #progress-back {
-	height: 10px;
+	height: 5px;
 	background: rgb(255, 205, 0);
 	top: 0;
 	position: fixed;
@@ -21,12 +31,20 @@ ul {
 
 #nav {
 	width: 100%;
-	height: 40px;
+	height: 30px;
 	background-color: black;
+	/*background: rgb(255, 205, 0);*/
 	position: fixed;
 	bottom: 0;
 	z-index: 9999;
 	padding: 5px;
+}
+
+#ship {
+	margin-left: 40vw;
+	margin-top: 30vh;
+	position: fixed;
+	width: 20vw;
 }
 
 #logo {
@@ -35,9 +53,9 @@ ul {
 	left: 40%;
 	z-index: 9999;
 	color: white;
-	font-family: 'helvetica neue';
+	font-family: "brandon-grotesque",sans-serif;
 	font-weight: lighter;
-	font-size: 30px;
+	font-size: 10vh;
 }
 
 #logo h1 {
@@ -51,6 +69,32 @@ ul {
 	font-family: 'helvetica neue';
 	font-weight: lighter;
 	font-size: 50px;
+}
+
+#intro2 p {
+	background-color: rgba(255, 255, 255, 0.7);
+	position: fixed;
+	bottom: 10vh;
+	left: 35vw;
+	font-size: 1.2vw;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#intro2 span.label {
+	background-color: #5da423;
+	padding-left: .2em;
+	padding-right: .2em;
+	padding-top: .1em;
+	padding-bottom: .2em;
+}
+
+#intro2 a {
+	background-color: #2ba6cb;
+	padding-left: .2em;
+	padding-right: .2em;
+	padding-top: .1em;
+	padding-bottom: .2em;
 }
 
 #instruct {
@@ -69,14 +113,16 @@ ul {
 #navlist li {
 	float: left;
 	margin-right: 30px;
-	font-size: 20px;
+	font-size: 15px;
 	vertical-align: center;
 }
 
 #navlist li a {
-	color: white;
+	/*color: white;*/
+	color: rgb(255, 205, 0);
 	text-decoration: none;
-	opacity: 0.7;
+	opacity: 0.9;
+	font-weight: 200;
 }
 
 #navlist li a:hover {
@@ -92,8 +138,8 @@ ul {
 
 .sub-header {
 	font-size: 20px;
-	font-weight: lighter;
-	margin: 50px 0px 50px 0px;
+	font-weight: 200;
+	margin-top: 2%;
 }
 
 #about {
@@ -111,7 +157,8 @@ ul {
 }
 
 .skills-row {
-	padding-bottom: 100px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 ul.skills {
@@ -191,11 +238,15 @@ ul.skills {
 }
 
 #slides-container {
-	margin-top: 10px;
+	margin-top: 5px;
+}
+
+.project-container {
+	margin-right: 10%;
 }
 
 #slides {
-	width: 200%;
+	width: 100%;
 	height: 100%;
 }
 
@@ -205,17 +256,20 @@ ul.skills {
     left:0;
     width:100%;
     min-height: 100vh;
-    border-bottom: 1px solid gray;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #slide-1 {
-    background: rgb(255, 205, 0);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),url(../img/horizon.jpg) no-repeat bottom center scroll;
+    background-opacity: 0.2;
+    /*background: rgb(255, 205, 0);*/
     background-size: cover;
 }
 
 /* Slide 2 goes to the bottom left */
 #slide-2 {
-    background: rgb(68, 198, 80);
+    background: white;
     background-size: cover;
 /*    -webkit-transform: translate(0,100%);
     -ms-transform: translate(0,100%);
@@ -224,7 +278,7 @@ ul.skills {
 
 /* Slide 3 goes to the bottom right */
 #slide-3 {
-    background: #4A90E2;
+    background: #ebeff2;
     background-size: cover;
 /*    -webkit-transform: translate(0,200%);
     -ms-transform: translate(0,200%);
@@ -234,7 +288,7 @@ ul.skills {
 
 /* Slide 4 goes to the top right */
 #slide-4 {
-    background: rgb(191, 85, 236);
+    background: white;
     background-size: cover;
 /*    -webkit-transform: translate(0%,300%);
     -ms-transform: translate(0,300%);
@@ -243,7 +297,7 @@ ul.skills {
 
 /* Slide 5 goes to the top right */
 #slide-5 {
-    background: rgb(189, 195, 199);
+    background: #ebeff2;
     background-size: cover;
 /*    -webkit-transform: translate(0%,400%);
     -ms-transform: translate(0,400%);
