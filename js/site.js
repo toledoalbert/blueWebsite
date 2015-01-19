@@ -14,3 +14,14 @@ skills.append("circle").attr("class", "skillCircle").attr("stroke", "#FFF").attr
 
 //Initialize skrollr
 var s = skrollr.init();
+
+
+// var t = new Trianglify({
+//     x_gradient: Trianglify.colorbrewer.RdYlBu[5],
+//     y_gradient: Trianglify.colorbrewer.RdYlBu[5],
+//     noiseIntensity: 0.1,
+//     cellpadding: 10,
+//     cellsize: 100});
+
+// var pattern = t.generate(document.body.clientWidth, document.body.clientHeight);
+// document.getElementById("slide-1").setAttribute('style', 'background-image: '+ pattern.dataUrl);
